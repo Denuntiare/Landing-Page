@@ -1,0 +1,206 @@
+/* Barra de Topo */
+
+nav {
+  position: fixed;
+  z-index: 3;
+  width: 100vw;
+  height: 70px;
+  overflow: hidden;
+  background: #7a0260c9;
+}
+
+.TopoLogo {
+  position: fixed;
+  display: flex;
+  z-index: 3;
+  width: 100vw;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.TopoLogo img {
+  height: 5vh;
+}
+
+.TopoLogo h1 {
+  color: white;
+  font-size: 3em;
+  font-family: Spectral, serif;
+
+}
+
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+/* Lista de Atalhos */
+/* .Navset {
+  position: relative;
+  width: 100vw;
+}
+
+.Navbar {
+  display: flex;
+}
+
+nav .Navset ul {
+  display: flex;
+  float: right;
+  padding: 0;
+}
+
+nav .Navset ul li {
+  list-style: none;
+  transition: 0.5s;
+  padding: 0px 10px;
+  justify-content: center;
+  height: 100px;
+}
+
+nav .Navset ul li a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: block;
+  font-size: 120%;
+  padding: 37px 40px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: rgb(223, 238, 253);
+  transform: translate( 0%, 0%);
+}
+
+.Navset ul li:hover a {
+  color: white;
+  border-top: solid #fff 3px;
+  background: rgba(94, 4, 64, 0.5);
+}
+
+nav ul {
+  padding: 20px;
+  padding-top: 20px;
+  padding-left: 35px;
+  display: static;
+}
+  
+nav ul li {
+  list-style: none;
+}
+  
+nav ul li a {
+  padding: 10px 0px;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+} */
+
+/* Barra de Opções */
+/* nav.open {
+  height: 200px;
+}
+
+.BotaoTopo {
+  position: fixed;
+  display: none;
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  transition-duration: 0.5s;
+}
+
+.BotaoTopo .icon {
+  transition-duration: 0.25s;
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  top: 30px;
+  left: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.BotaoTopo .icon:before,
+.BotaoTopo .icon:after {
+  transition-duration: 0.25s;
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  content: "";
+}
+
+.BotaoTopo .icon:before {
+  top: -7px;
+  left: 0;
+}
+
+.BotaoTopo .icon:after {
+  top: 7px;
+  left: 0;
+}
+
+.BotaoTopo:hover {
+  cursor: pointer;
+}
+
+.BotaoTopo:hover .icon:before {
+  top: -10px;
+}
+
+.BotaoTopo:hover .icon:after {
+  top: 10px;
+}
+
+.BotaoTopo.open {
+  transition-duration: 1s;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+.BotaoTopo.open .icon {
+  transition-duration: 0.5s;
+  background-color: transparent;
+}
+
+.BotaoTopo.open .icon:before {
+  top: 0;
+  transition-duration: 0.5s;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.BotaoTopo.open .icon:after {
+  top: 0;
+  transition-duration: 0.5s;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+} */
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 1248px) {
+  nav.open {
+      height: 100vh;
+      width: 100vw;
+  }
+
+  .navToggle {
+    display: none;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav ul {
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    top: 25vh;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .Navset {
+      display: none;
+  }
+}
