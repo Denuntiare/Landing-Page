@@ -8,7 +8,7 @@ body{
     height: 100vh;
 	margin:0;
 	color:#e4e4e4b0;
-    background:#c8c8c8;
+    background:#f0f0f0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* font:600 16px/18px 'Open Sans',sans-serif; */
     /* font-family: Spectral,serif; */
@@ -20,7 +20,8 @@ body{
 	max-width:525px;
 	min-height:670px;
 	position:relative;
-	background: url(../Img/Fundo.jpg) no-repeat center;
+	background: url(../Img/hand.jpg) no-repeat center;
+	background-position: bottom;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
 
@@ -29,7 +30,7 @@ body{
 	height:100%;
 	position:absolute;
 	padding:90px 70px 50px 70px;
-	background: rgba(172, 6, 97, 0.4);
+	background: #6c3c8c4c;
 }
 
 .Logotipo {
@@ -58,10 +59,17 @@ body{
 .login-form .group .check {
 	display:none;
 }
-.Form .tab,
+
+.tab {
+	letter-spacing: 0.1;
+	text-transform: none;
+}
+
+.Form,
 .login-form .group .label,
 .login-form .group .button {
 	text-transform:uppercase;
+	letter-spacing:.2em;
 }
 .Form .tab {
 	font-size:22px;
@@ -149,7 +157,7 @@ body{
 	color:#fff;
 }
 .login-form .group .check:checked + label .icon {
-	background:#1161ee;
+	background:#4330af;
 }
 .login-form .group .check:checked + label .icon:before {
 	transform:scale(1) rotate(45deg);
@@ -171,4 +179,13 @@ body{
 }
 .foot-lnk{
 	text-align:center;
+}
+
+.SobreNois-htm button {
+	outline: none;
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background: #4330af;
+	color: #FFF;
 }

@@ -6,7 +6,10 @@ nav {
   width: 100vw;
   height: 70px;
   overflow: hidden;
-  background: #7a0260c9;
+
+  background: #322153;
+  background: -webkit-linear-gradient(to right, #322153, #7a0260);
+  background: linear-gradient(to right, #322153, #7a0260);
 }
 
 .TopoLogo {
@@ -20,7 +23,7 @@ nav {
 }
 
 .TopoLogo img {
-  height: 5vh;
+  height: 8vh;
 }
 
 .TopoLogo h1 {
