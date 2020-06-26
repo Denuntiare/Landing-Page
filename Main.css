@@ -441,52 +441,9 @@ a {
 
 /********** Topo **********/
 
-.Topo-Bg {
-    /* background: url(./Img/person-holding-magnifying-glass-712786.jpg); */
-    /* background: linear-gradient(to bottom, #5457ac, #4c51df , #393ec9); */
-}
-
-.Topo {
+.TopoBg {
     display: block;
     height: auto;
-}
-
-.filtro {
-    background: none;
-}
-
-.Topo-Texto {
-    width: auto;
-    margin: 0px 0px 0px 0px;
-    padding: 150px 25px 80px 25px;
-    font-weight: bold;
-}
-.Topo-Texto h1 {
-    font-size: 2.5em;
-    font-weight: 600;
-}
-.Topo-Texto p {
-    font-size: 1.5em;
-    font-weight: 400;
-}
-
-.Topo-Botao {
-    display: grid;
-    position: relative;
-    align-content: center;
-    padding: 5px 0px 5px 0px;
-}
-
-.Download-Botao{
-    border-radius: 5px;
-    width: 250px;
-    font-size: 1.2em;
-    margin: 10px;
-}
-
-.Topo-Botao label {
-    display: none;
-    width: auto;
 }
 
 /* Mockup */
