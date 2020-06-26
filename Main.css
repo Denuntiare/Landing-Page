@@ -441,22 +441,19 @@ a {
 
 /********** Topo **********/
 
-.TopoBg {
-    display: block;
+main .TopoBg {
     height: auto;
+    padding: 10vh 0 10vh 0;
 }
 
-/* Mockup */
-
-.Topo-Img {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+main .TopoContent {
     width: auto;
-    padding-bottom: 100px;
+    height: auto;
+    background: none;
 }
-.Topo-Img img {
-    height: 80vh;
+
+main .ContentText {
+    width: auto;
 }
 
 /********** Apresentação - SOBRE **********/
