@@ -1,0 +1,108 @@
+#Projeto {
+    display: flex;
+    /* display: none; */
+    height: 100vh;
+    flex-flow: wrap;
+    padding: 80px 15% 80px 15%;
+    background:#f0f0f0;
+}
+
+.infos-title {
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.infos-title p {
+    font-size: 120%;
+}
+
+.icon-info {
+    color:#6c3c8c;
+    font-size: 230%;
+    line-height: 100px;
+}
+
+.infos {
+    line-height: 25px;
+    padding: 0px 60px 0px 60px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 450;
+}
+
+.main-text-infos ul {
+    list-style: none;
+    text-align: center;
+}
+
+.main-text-infos li {
+    line-height: 25px;
+}
+
+.main-text-infos:nth-child(1), .main-text-infos:nth-child(2) {
+    border-bottom: solid 1px rgba(128, 128, 128, 0.8);
+}
+
+.main-text-infos:nth-child(2), .main-text-infos:nth-child(4) {
+    border-left: solid 1px rgba(128, 128, 128, 0.8);
+}
+
+.main-text-infos {
+    width: 50%;
+}
+
+@media only screen and (max-width: 1248px) {
+
+    /********** Informações do Projeto - SOBRE **********/
+    
+    #Projeto {
+        height: auto;
+        width: 100vw;
+        padding: 100px 0px 0px 0px;
+        display: auto;
+        flex-flow: column;
+    }
+    
+    .infos-title {
+        text-align: auto;
+        padding-bottom: 50px;
+    }
+    
+    .infos-title p {
+        font-size: 1.5em;
+    }
+    
+    .icon-info {
+        color: rgb(52, 40, 100);
+        font-size: 230%;
+        line-height: 100px;
+    }
+    
+    .infos {
+        font-size: 1.4em;
+        line-height: 25px;
+        padding: 0px;
+        text-align: justify;
+    }
+    
+    .main-text-infos:nth-child(1),
+    .main-text-infos:nth-child(2),
+    .main-text-infos:nth-child(3),
+    .main-text-infos:nth-child(4) {
+        padding: 0px 40px 100px 40px;
+        border: 0;
+        height: auto;
+        width: 100vw;
+    }
+    
+    .main-text-infos ul {
+        list-style: none;
+        text-align: center;
+    }
+    
+    .main-text-infos li {
+        line-height: 25px;
+    }
+}

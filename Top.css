@@ -1,0 +1,136 @@
+/* Área Topo */
+main .Area-Top {
+    background: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+main .Area-Top .Content-Text-Area-Top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    flex: 1;
+}
+
+main .Area-Top .Content-Text-Area-Top .Text-Group-Top h1 {
+    font-size: 3.6em;
+    font-weight: 700;
+    line-height: 1.4em;
+    padding: 24px 32px 12px 32px;
+    color: #322153;
+}
+
+main .Area-Top .Content-Text-Area-Top .Text-Group-Top p {
+    font-size: 1.6em;
+    padding: 12px 32px 24px 32px;
+    color: #322153;
+}
+
+main .Area-Top .Content-Text-Area-Top .Text-Group-Top label {
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+}
+
+main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top {
+    transition: 0.3s;
+    width: 171px;
+    height: 71px;
+    border: 0px;
+    border-radius: 24px;
+    margin: 16px 32px;
+}
+main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top:hover {
+    transform: scale(1.2);
+}
+main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top:hover:after {
+    width: 0%;
+}
+main button {
+    outline: none;
+}
+main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top:nth-child(1) {
+    background: #7a0260;
+}
+main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top:nth-child(2) {
+    background: #F3AD55;
+}
+main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top i,
+main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top a {
+    color: #FFF;
+    font-size: 1.5em;
+}
+
+main  .Area-Top .Content-Image-Area-Top {
+    display: flex;
+    align-items: flex-end;
+}
+
+main  .Area-Top .Content-Image-Area-Top img {
+    height: 90vh;
+}
+
+@media only screen and (max-width: 1248px) {
+    main .Area-Top {
+        height: 100vh;
+    }
+
+    main .Area-Top .Content-Text-Area-Top {
+        width: 100%;
+    }
+
+    main .Area-Top .Content-Text-Area-Top .Text-Group-Top h1 {
+        font-size: 8.5vw;
+    }
+    
+    main .Area-Top .Content-Text-Area-Top .Text-Group-Top p {
+        font-size: 4.5vw;
+        padding: 12px 32px 24px 32px;
+    }
+
+    main .Area-Top .Content-Text-Area-Top .Text-Group-Top label {
+        font-size: 3vw;
+    }
+
+    main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top {
+        width: 256px;
+        height: 64px;
+        border-radius: 32px;
+    }
+
+    main  .Area-Top .Content-Image-Area-Top {
+        display: none;
+        align-items: none;
+    }    
+}
+
+@media only screen and (max-width: 475px) {
+
+    main .Area-Top .Content-Text-Area-Top .Text-Group-Top h1 {
+        font-size: 12vw;
+        letter-spacing: .05em;
+        line-height: 1em;
+        padding: 32px 32px 16px 32px;
+    }
+    
+    main .Area-Top .Content-Text-Area-Top .Text-Group-Top p {
+        font-size: 6.5vw;
+        letter-spacing: .05em;
+        padding: 16px 32px 16px 32px;
+    }
+
+    main .Area-Top .Content-Text-Area-Top .Text-Group-Top label {
+        font-size: 4.5vw;
+    }
+
+    main .Area-Top .Content-Text-Area-Top .Button-Group-Top {
+        padding-top: 16px;
+    }
+
+    main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top {
+        margin: 12px;
+    }
+
+}

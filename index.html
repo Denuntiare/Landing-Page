@@ -16,6 +16,9 @@
     <link rel="stylesheet" type="text/css" href="Global.css">
     <link rel="stylesheet" type="text/css" href="Header.css">
     <link rel="stylesheet" type="text/css" href="Main.css">
+    <link rel="stylesheet" type="text/css" href="Top.css">
+    <link rel="stylesheet" type="text/css" href="./Introduction.css">
+    <link rel="stylesheet" type="text/css" href="./Details.css">
     <link rel="stylesheet" type="text/css" href="Footer.css">
     <script src="jquery-3.3.1.min.js"></script>
 </head>
@@ -36,57 +39,78 @@
         <div id="main">
 
             <!-- Topo -->
-            <div class="TopoBg">
-                <div class="TopoContent">
-                    <div class="ContentText">
-                        <div class="Text-Group">
+            <div class="Area-Top">
+                <div class="Content-Text-Area-Top">
+                    <div>
+                        <div class="Text-Group-Top">
                             <h1>A sua segurança <br> não pode esperar!</h1>
                             <p>Sempre alerta!</p>
                             <label>Baixe aqui!</label>
                         </div>
-                        <div class="Button-Group">
-                            <button class="Download-Botao" type="submit"><i class="fa fa-apple"> </i><a
-                                    href="./Form/index.html"> App Store </a> </button>
-                            <button class="Download-Botao" type="submit"><i class="fab fa-google-play"></i><a
-                                    href="./Form/index.html"> Play Store </a> </button>
+
+                        <div class="Button-Group-Top">
+                            
+                            <button id="Button-Top" class="Download-Button-Top" type="submit">
+                                <i class="fa fa-apple"> </i>
+                                <a href="./Form/index.html"> App Store </a> 
+                            </button>
+
+
+                            <button id="Button-Top" class="Download-Button-Top" type="submit">
+                                <i class="fab fa-google-play"></i>
+                                <a href="./Form/index.html"> Play Store </a> 
+                            </button>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Sobre - Apresentação -->
-            <div id="Sobre">
-                <div class="Sobre-textos">
-                    <diV class="Sobre-texto-esquerda">
-                        <h1>O Que é o Denuntiare?</h1>
-                        <p> Buscando atender demandas de segurança pública, o Denuntiare propõe soluções
-                            interessantes para o aplicativo que está em fase de protótipo. Como já sugere
-                            o nome, sua função é diminuir a distância entre você e as denúncias, tanto
-                            para a sua comunicação com as autoridades, familiares, amigos e a
-                            sociedade, quanto para que você se informe sobre onde e em que momento
-                            quais crimes e situações de perigo aconteceram. </p>
-                    </diV>
-                    <div class="Icone-direita">
-                        <i class="fa fa-comments" style="font-size:180px; color:#6c3c8c"></i>
-                    </div>
+                <div class="Content-Image-Area-Top">
+                    <img src="./Img/LandingPageImgTopo.svg" alt="">
                 </div>
 
-                <div class="Sobre-textos">
-                    <div class="Icone-esquerda">
-                        <i class="fa fa-group" style="font-size:180px; color:#6c3c8c"></i>
+            </div>
+
+            <!-- Introdução -->
+            <div class="Area-Introduction">
+                <div>
+                    <div class="Area-Introduction-Text">
+
+                        <diV class="Introduction-Text">
+                            <h1>O Que é o Denuntiare?</h1>
+                            <p> Buscando atender demandas de segurança pública, o Denuntiare propõe soluções
+                                interessantes para o aplicativo que está em fase de protótipo. Como já sugere
+                                o nome, sua função é diminuir a distância entre você e as denúncias, tanto
+                                para a sua comunicação com as autoridades, familiares, amigos e a
+                                sociedade, quanto para que você se informe sobre onde e em que momento
+                                quais crimes e situações de perigo aconteceram. </p>
+                        </diV>
+
+                        <div class="Introduction-Icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+
                     </div>
-                    <diV class="Sobre-texto-direita">
-                        <h1>Eu preciso do Denuntiare?</h1>
-                        <p>Pense no Denuntiare como um canivete suíço da prevenção. Com ele você saberá
-                            por onde andar, e também quais são os lugares e os horários mais seguros na sua
-                            ou em qualquer outra região. É uma ferramenta de segurança que pode ser usada de
-                            forma convencional desbloqueando o celular ou de forma discreta sem chamar atenção
-                            com a tela bloqueada. </p>
-                    </diV>
+
+                    <div class="Area-Introduction-Text">
+
+                        <div class="Introduction-Icon">
+                            <i class="fa fa-group"></i>
+                        </div>
+
+                        <diV class="Introduction-Text">
+                            <h1>Eu preciso do Denuntiare?</h1>
+                            <p>Pense no Denuntiare como um canivete suíço da prevenção. Com ele você saberá
+                                por onde andar, e também quais são os lugares e os horários mais seguros na sua
+                                ou em qualquer outra região. É uma ferramenta de segurança que pode ser usada de
+                                forma convencional desbloqueando o celular ou de forma discreta sem chamar atenção
+                                com a tela bloqueada. </p>
+                        </diV>
+
+                    </div>
                 </div>
             </div>
 
-            <!-- Informações do Projeto -->
+            <!-- Detalhes -->
             <div id="Projeto">
                 <!-- 1º -->
                 <div class="main-text-infos">

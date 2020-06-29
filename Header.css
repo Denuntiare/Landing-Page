@@ -23,28 +23,5 @@ nav {
 }
 
 .TopoLogo img {
-  height: 8vh;
-}
-
-.TopoLogo h1 {
-  color: white;
-  font-size: 3em;
-  font-family: Spectral, serif;
-
-}
-
-#particles-js {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
-/* RESPONSIVIDADE */
-
-@media only screen and (max-width: 1248px) {
-
-  .TopoLogo img {
-    height: 64px;
-  }
-
+  height: 80px;
 }

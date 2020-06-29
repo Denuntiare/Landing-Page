@@ -1,0 +1,152 @@
+.Area-Introduction {
+    height: 100vh;
+    background:#f0f0f0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Area-Introduction .Area-Introduction-Text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 25px 16vw;
+}
+.Area-Introduction .Area-Introduction-Text .Introduction-Text h1 {
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 25px;
+    font-size: 3em;
+}
+.Area-Introduction .Area-Introduction-Text .Introduction-Text p {
+    line-height: 25px;
+    font-size: 1.2em;
+}
+
+.Area-Introduction .Area-Introduction-Text .Introduction-Icon:nth-child(1) {
+    font-size:10em;
+    padding: 0 3%;
+    width: 40%;
+    color:#322153;
+}
+
+.Area-Introduction .Area-Introduction-Text .Introduction-Icon:nth-child(2) {
+    font-size:10em;
+    padding: 0 3%;
+    width: 40%;
+    color:#7a0260;
+}
+
+@media only screen and (max-width: 1248px) {    
+
+    .Area-Introduction {
+        height: auto;
+        padding: 0;
+    }
+
+    .Area-Introduction .Area-Introduction-Text {
+        padding: 40px 40px;
+    }
+
+    .Area-Introduction .Area-Introduction-Text .Introduction-Icon {
+        display: none;
+    }
+
+    .Area-Introduction .Area-Introduction-Text .Introduction-Text h1 {
+        text-align: center;
+        line-height: 60px;
+        padding-bottom: 25px;
+        font-size: 2.5em;
+    }
+    .Area-Introduction .Area-Introduction-Text .Introduction-Text p {
+        text-align: justify;
+        line-height: 35px;
+        font-size: 1.4em;
+        font-weight: 450;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Sobre h1 {
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+#Sobre p {
+    line-height: 25px;
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 320px) {
+
+    #Sobre h1 {
+        text-align: center;
+        line-height: 50px;
+        padding-bottom: 20px;
+        font-size: 1.5em;
+    }
+
+    #Sobre p {
+        line-height: 25px;
+        font-size: 1em;
+    }
+}
+
+.Sobre-textos {
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    font-weight: 350;
+}
+
+.Sobre-texto-esquerda {
+    padding-left: 300px;
+    width: 60%;
+    text-align: justify;
+}
+.Sobre-texto-direita {
+    padding-right: 300px;
+    width: 60%;
+    text-align: justify;
+}
+
+.Icone-esquerda {
+    padding: 3%;
+    width: 40%;
+    text-align: end;
+}
+
+.Icone-direita {
+    padding: 3%;
+    width: 40%;
+    text-align: start;  
+}
