@@ -65,7 +65,7 @@ h4, .h4 {
 
 .Texts {
   position: relative;
-  width: 100%;
+  width: 100vw;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
@@ -73,15 +73,8 @@ h4, .h4 {
   flex: 0 0 66.66667%;
 }
 
-footer .container .ontheline .Texts h3 {
-  color: #5e72e4 !important;
-  font-weight: 300 !important;
-  color: #322153;
-}
-
+footer .container .ontheline .Texts h3,
 footer .container .ontheline .Texts h4 {
-  margin-bottom: 0 !important;
-  font-weight: 300 !important;
   color: #322153;
 }
 
@@ -94,7 +87,7 @@ footer .container .ontheline .Texts h4 {
   height: 2.375rem;
   padding: .875rem 1rem;
   margin: 0 4px 0 4px;
-  border: 1px solid transparent;
+  border: 0;
   border-radius: .25rem;
 
   display: inline-flex;
@@ -122,12 +115,14 @@ footer .container .ontheline .Texts h4 {
 
 .instagram {
   color: #fff;
-  background-color: #e4405f;
+  background: #8a2387;
+  background: -webkit-linear-gradient(to right, #8a2387, #e94057, #f27121);
+  background: linear-gradient(to right, #8a2387, #e94057, #f27121);
 }
 
 .whatsapp {
   color: #fff;
-  background-color: #25d366;
+  background-color: #1b9a59;
 }
 
 .email {
@@ -137,7 +132,7 @@ footer .container .ontheline .Texts h4 {
 
 .github {
   color: #fff;
-  background-color: #222;
+  background-color: #24292e;
 }
 
 
@@ -153,4 +148,30 @@ footer .container .ontheline .Texts h4 {
 
 .copyright {
   font-size: .875rem;
+}
+
+@media only screen and (max-width: 1248px) {
+  .Texts_and_Icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .Texts {
+    text-align: center;
+
+    position: relative;
+    width: 100vw;
+    min-height: none;
+    padding-right: none;
+    padding-left: none;
+    max-width: none;
+    flex: none;
+  }
+
+  .IconFooter {
+    align-items: center;
+    padding: 15px 15px;
+  }
 }
