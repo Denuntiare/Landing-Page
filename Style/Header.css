@@ -8,20 +8,52 @@ nav {
   overflow: hidden;
 
   background: #322153;
-  background: -webkit-linear-gradient(to right, #322153, #7a0260);
   background: linear-gradient(to right, #322153, #7a0260);
-}
+  background: -webkit-linear-gradient(to right, #322153, #7a0260);
 
-.TopoLogo {
-  position: fixed;
   display: flex;
-  z-index: 3;
-  width: 100vw;
-  height: 70px;
   align-items: center;
   justify-content: center;
 }
 
-.TopoLogo img {
-  height: 80px;
+.Header {
+  width: 35vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-between; */
 }
+
+.Header img {
+  height: 65px;
+}
+/* 
+.Header .Header-Area-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Header .Header-Area-buttons .Header-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 50px;
+  width: 124px;
+  margin: 0px 5px;
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #FFF;
+  border: 1.5px solid #FFF;
+  border-radius: 16px;
+}
+
+.Header .Header-Area-buttons .Header-button:hover {
+  cursor: pointer;
+  border: 5px solid #FFF;
+  transition: 0.2s;
+} */
