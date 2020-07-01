@@ -41,6 +41,7 @@ main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top {
     border: 0px;
     border-radius: 24px;
     margin: 16px 32px;
+    cursor: pointer;
 }
 main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top:hover {
     transform: scale(1.2);
@@ -57,8 +58,7 @@ main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top:nth
 main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top:nth-child(2) {
     background: #F3AD55;
 }
-main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top i,
-main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top a {
+main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top i {
     color: #FFF;
     font-size: 1.5em;
 }
