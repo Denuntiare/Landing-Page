@@ -1,9 +1,0 @@
-{
-  "hosting": {
-    "site": "denuntiare.github.io/landing-page/.",
-    "public": "public"
-  },
-  "database": {
-    "rules": "database.rules.json"
-  }
-}

@@ -1,11 +1,3 @@
-// Firebase
-function writeUserData(userId, name, email) {
-	firebase.database().ref('users/' + userId).set({
-	  username: name,
-	  email: email,
-	});
-  }  
-
 // Group
 jQuery(document).ready(function() {
   

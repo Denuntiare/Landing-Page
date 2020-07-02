@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body src="w3javascript.gif" onload="Janela()" width="100" height="132">
+<body src="w3javascript.gif" width="100" height="132">
         <div class="EmbrulhoForm">
             <div class="Form">
 
@@ -17,20 +17,20 @@
                 </div>
 
                 <input id="tab-1" type="radio" name="tab" class="cadastro" checked><label for="tab-1" class="tab">Cadastro</label>
-                <input id="tab-2" type="radio" name="tab" class="SobreNois"><label for="tab-2" class="tab">Faça a denúncia agora</label>
+                <input id="tab-2" type="radio" name="tab" class="Denuncia"><label for="tab-2" class="tab">Denuncie aqui!</label>
                 <div class="login-form">
 
                     <!-- TAB 1 -->
-                    <div class="Cadastro-htm">
+                    <form id="submit" class="Cadastro-htm" onsubmit="handleSubmit()">
 
                         <div class="group">
                             <label for="user" class="label">Nome Completo:</label>
-                            <input id="user" type="text" class="input">
+                            <input id="user" type="text" class="input" required>
                         </div>
 
                         <div class="group">
                             <label for="email" class="label">E-mail:</label>
-                            <input id="email" type="text" class="input" data-type="text">
+                            <input id="email" type="text" class="input" data-type="text" required>
                         </div>
 
                         <div class="group">
@@ -42,14 +42,14 @@
                         <div class="foot-lnk">
                             <a href="https://www.instagram.com/denuntiare/"> <i class="fa fa-instagram"> Instagram </i> </a>
                         </div>
-                    </div>
+                    </form>
 
                     <!-- TAB 2 -->
-                    <div class="SobreNois-htm">
+                    <div class="Denuncia-htm">
 
-                        <button>
-                            <a>Denuntiare Web</a>
-                        </button>
+                        <div class="group">
+                           <a class="button">Ir para página de denúncia</a>
+                        </div>
 
                         <div class="hr"></div>
 
@@ -60,7 +60,28 @@
                 </div>
             </div>
         </div>
-
-        <script src="main.js" type="text/Javascript"></script>
 </body>
+<!-- JS Files -->
+<script src="main.js" type="text/Javascript"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyDaC1Ni2UTtkPC4obuuOHqBblFDR_Toefs",
+        authDomain: "denuntiare.firebaseapp.com",
+        databaseURL: "https://denuntiare.firebaseio.com",
+        projectId: "denuntiare",
+        storageBucket: "denuntiare.appspot.com",
+        messagingSenderId: "132706147216",
+        appId: "1:132706147216:web:97705b515111bb373e3115",
+        measurementId: "G-PN9QY2LE2G"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
 </html>

@@ -10,8 +10,6 @@ body{
 	color:#e4e4e4b0;
     background:#f0f0f0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* font:600 16px/18px 'Open Sans',sans-serif; */
-    /* font-family: Spectral,serif; */
 }
 
 .EmbrulhoForm {
@@ -26,11 +24,13 @@ body{
 }
 
 .Form {
-	width:100%;
-	height:100%;
-	position:absolute;
-	padding:90px 70px 50px 70px;
-	background: #6c3c8c4c;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	padding: 90px 70px 50px 70px;
+	background: #322153;
+	background: linear-gradient(to right, rgba(122, 2, 96, 0.7), rgba(50, 33, 83, 0.7));
+	background: -webkit-linear-gradient(to right, #322153, #7a0260);
 }
 
 .Logotipo {
@@ -44,7 +44,8 @@ body{
 }
 
 .Form .Cadastro-htm,
-.Form .SobreNois-htm {
+.Form .Denuncia-htm {
+	padding-top: 16px;
 	top:0;
 	left:0;
 	right:0;
@@ -55,7 +56,7 @@ body{
 	transition:all .4s linear;
 }
 .Form .cadastro,
-.Form .SobreNois,
+.Form .Denuncia,
 .login-form .group .check {
 	display:none;
 }
@@ -82,9 +83,11 @@ body{
     border-color:rgba(255, 255, 255, 0.2);
 }
 .Form .cadastro:checked + .tab,
-.Form .SobreNois:checked + .tab {
+.Form .Denuncia:checked + .tab {
 	color:#fff;
-	border-color:#1161ee;
+	/* border-color:#1161ee; */
+	border-color:#F3AD55;
+
 }
 .login-form {
 	min-height:345px;
@@ -101,6 +104,8 @@ body{
 	width:100%;
 	color:#fff;
 	display:block;
+	font-weight: 550;
+	line-height: 2em;
 }
 .login-form .group .input,
 .login-form .group .button {
@@ -119,11 +124,12 @@ body{
 	font-size:12px;
 }
 .login-form .group .button {
-	background:#4330af;
+	/* background:#4330af; */
+	background:#F3AD55;
 }
 .login-form .group .button:hover {
 	cursor: pointer;
-	background:#392894d3;
+	background:#f3ac55ce;
 }
 .login-form .group label .icon {
 	width:15px;
@@ -165,10 +171,10 @@ body{
 .login-form .group .check:checked + label .icon:after {
 	transform:scale(1) rotate(-45deg);
 }
-.Form .cadastro:checked + .tab + .SobreNois + .tab + .login-form .Cadastro-htm {
+.Form .cadastro:checked + .tab + .Denuncia + .tab + .login-form .Cadastro-htm {
 	transform:rotate(0);
 }
-.Form .SobreNois:checked + .tab + .login-form .SobreNois-htm {
+.Form .Denuncia:checked + .tab + .login-form .Denuncia-htm {
 	transform:rotate(0);
 }
 
@@ -181,11 +187,100 @@ body{
 	text-align:center;
 }
 
-.SobreNois-htm button {
-	outline: none;
-	border:none;
-	padding:15px 20px;
-	border-radius:25px;
-	background: #4330af;
-	color: #FFF;
+.Denuncia-htm .group {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Denuncia-htm .group .button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 1248px) {
+	body{
+		background: #6c6c9f;
+	}
+
+	.Denuncia-htm .group {
+		font-size: 0.8em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.Denuncia-htm .group .button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+}
+
+@media only screen and (max-width: 550px) {
+	.EmbrulhoForm {
+		width:100%;
+		margin:auto;
+		max-width: none;
+		min-width: none;
+		max-height: none;
+		min-height: none;
+	}
+
+	.Form {
+		padding: 8vh 5vw;
+		width: 100%;
+	}
+	
+}
+
+@media only screen and (max-width: 330px) {
+	.Denuncia-htm .group {
+		font-size: 0.6em;
+	}
+
+	.Form {
+		padding: 10vh 10vw 10vh 10vw;
+	}
+	
+	.Form img {
+		width: 100px;
+	}
+
+	.Form,
+	.login-form .group .label,
+	.login-form .group .button {
+		font-size: 1em;
+	}
+	.Form .tab {
+		font-size:13px;
+		margin-right:0px;
+		padding-bottom:0px;
+		margin:0;
+	}
+	.login-form .group .input,
+	.login-form .group .button {
+		padding: 8px 20px;
+		border-radius: 24px;
+	}
+	.login-form .group .label {
+		font-size: 10px;
+	}
+	.login-form .group .check:checked + label .icon {
+		background:#F3AD55;
+	}
+	
+	.Denuncia-htm .group {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.Denuncia-htm .group .button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 }
