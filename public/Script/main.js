@@ -1,10 +1,18 @@
-// Grup
+// Firebase
+function writeUserData(userId, name, email) {
+	firebase.database().ref('users/' + userId).set({
+	  username: name,
+	  email: email,
+	});
+  }  
+
+// Group
 jQuery(document).ready(function() {
   
 	$('.more-btn').on('click', function(e){
 	  e.preventDefault();
 	  $(this).toggleClass('opened')
-	  $(this).parent().parent().find('.member-info-plus').slideToggle();
+	  $(this).parent().parent().find('.Member-Info-Plus').slideToggle();
 	});
 });
 
@@ -17,7 +25,6 @@ $(function() {
 });
 
 // Botão Back to Top
-
 var btn = $('#back-to-top');
 
 $(window).scroll(function() {

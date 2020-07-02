@@ -1,0 +1,22 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Página de Apresentação",
+  "main": "main.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denuntiare/Landing-Page.git"
+  },
+  "author": "Lucas de Oliveira Mota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Denuntiare/Landing-Page/issues"
+  },
+  "homepage": "https://github.com/Denuntiare/Landing-Page#readme",
+  "dependencies": {
+    "firebase": "^7.15.5"
+  }
+}

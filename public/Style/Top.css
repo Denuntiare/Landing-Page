@@ -72,6 +72,18 @@ main  .Area-Top .Content-Image-Area-Top img {
     height: 94vh;
 }
 
+@media only screen and (max-height: 900px) {
+    main  .Area-Top .Content-Image-Area-Top img {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    main  .Area-Top .Content-Image-Area-Top img {
+        height: 70vh;
+    }
+}
+
 @media only screen and (max-width: 1248px) {
     main .Area-Top {
         height: 100vh;
@@ -108,6 +120,10 @@ main  .Area-Top .Content-Image-Area-Top img {
 
 @media only screen and (max-width: 475px) {
 
+    main .Area-Top {
+        padding-top: 10vh;
+    }
+
     main .Area-Top .Content-Text-Area-Top .Text-Group-Top h1 {
         font-size: 12vw;
         letter-spacing: .05em;
@@ -132,5 +148,24 @@ main  .Area-Top .Content-Image-Area-Top img {
     main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top {
         margin: 12px;
     }
+}
+
+@media only screen and (max-height: 480px) {
+
+    main .Area-Top {
+        padding-top: 12vh;
+    }
+
+    main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top {
+        width: 120px;
+        height: 50px;
+        border-radius: 32px;
+    }
+
+    main .Area-Top .Content-Text-Area-Top .Button-Group-Top .Download-Button-Top i {
+        color: #FFF;
+        font-size: 1.3em;
+    }
+    
 
 }

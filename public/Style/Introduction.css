@@ -68,6 +68,21 @@
     }
 }
 
+@media only screen and (max-height: 480px) {
+
+    .Area-Introduction .Area-Introduction-Text .Introduction-Text h1 {
+        text-align: center;
+        line-height: 50px;
+        padding-bottom: 25px;
+        font-size: 2em;
+    }
+    .Area-Introduction .Area-Introduction-Text .Introduction-Text p {
+        line-height: 25px;
+        font-size: 1em;
+    }
+
+}
+
 
 
 

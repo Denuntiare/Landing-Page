@@ -106,3 +106,15 @@
         line-height: 25px;
     }
 }
+
+@media only screen and (max-height: 480px) {
+
+    .infos-title {
+        font: 2em;
+        padding-bottom: 40px;
+    }
+    
+    .infos-title p {
+        font-size: 1em;
+    }
+}
