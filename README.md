@@ -2,9 +2,9 @@
 
 # :newspaper: O Que podemos fazer pela sociedade?
 
-* ### :bulb: O Denuntiare é uma startup que pretende combater a insegurança pública.
-* ### :+1: Queremos tornar a sua mobilidade urbana mais segura.
-* ### :pushpin: Tenha o poder de fazer denuncias que ocuparão um espaço no seu mapa.
-* ### :relaxed: Mantenha as pessoas que se preocupam com você bem informadas durantes seu trajeto de volta pra casa.
-* ### :mega: Seja informado sobre crimes nas suas proximidades.
-* ### :gun: Não seja surpreendido por um ladrão em ruas escuras ou com pouco movimento
+* #### :bulb: O Denuntiare é uma startup que pretende combater a insegurança pública.
+* #### :+1: Queremos tornar a sua mobilidade urbana mais segura.
+* #### :pushpin: Tenha o poder de fazer denuncias que ocuparão um espaço no seu mapa.
+* #### :relaxed: Mantenha as pessoas que se preocupam com você bem informadas durantes seu trajeto de volta pra casa.
+* #### :mega: Seja informado sobre crimes nas suas proximidades.
+* #### :gun: Não seja surpreendido por nenhum ladrão em ruas escuras ou com pouco movimento
