@@ -1,5 +1,4 @@
 .Parceiros {
-    display: none;
     height: 100vh;
     width: 100%; /* Análisar */
     background-color: #f0f0f0;
@@ -21,7 +20,7 @@
   
 .slides {
     width: 100%;
-    animation: slide 10s ease infinite;
+    animation: slide 8s ease infinite;
 }
   
 .slide {
@@ -31,15 +30,29 @@
 }
   
 .slide:nth-child(1) {
-    background: #D93B65;
+    background: url(/Landing-Page/Img/IdeiasDeFuturo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
   
 .slide:nth-child(2) {
-    background: #037E8C;
+    background: url(/Landing-Page/Img/StartupInSchool.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
   
 .slide:nth-child(3) {
-    background: #36BF66;
+    background: url(/Landing-Page/Img/Google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width: 1248px) {
+    .slide:nth-child(3) {
+        background-size: contain;
+    }
 }
   
 .slide:nth-child(4) {
@@ -60,17 +73,17 @@
     40% {margin-top: -500px;}
     50% {margin-top: -1000px;}
     60% {margin-top: -1000px;}
-    70% {margin-top: -1500px;}
-    80% {margin-top: -1500px;}
+    /* 70% {margin-top: -1500px;}
+    80% {margin-top: -1500px;} */
 }
 
 @media only screen and (max-width: 1248px) {
-    #Parceiros {
+    .Parceiros {
         height: auto;
         width: 100vw;
     }
 
-    #Parceiros h2 {
+    .Parceiros h2 {
         padding-top: 4vh;
         padding-bottom: 4vh;
     }
