@@ -22,7 +22,7 @@ What can we do for society? (Features).
 
 # :star2: Agradecimentos
 
-![Agradecimentos](https://user-images.githubusercontent.com/46237033/88236182-cb650000-cc52-11ea-976a-d92bf6d8603a.png)
+![Readme_Agradecimentos 02](https://user-images.githubusercontent.com/46237033/88240071-7c23cd00-cc5c-11ea-8d93-9cdcc856a5fb.png)
 
 # :page_facing_up: Licença
 Esse repositório está licenciado pela MIT LICENSE. Para mais informações detalhadas, leia o arquivo LICENSE contido nesse repositório.
