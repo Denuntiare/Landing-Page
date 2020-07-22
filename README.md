@@ -9,7 +9,7 @@
 
 * * *
 
-#### Buscando atender demandas de segurança pública, o Denuntiare propõe soluções interessantes para o aplicativo que está em fase de protótipo. Como já sugere o nome, sua função é diminuir a distância entre você e as denúncias, tanto para a sua comunicação com as autoridades, familiares, amigos e a sociedade, quanto para que você se informe sobre onde e em que momento quais crimes e situações de perigo aconteceram.
+### Buscando atender demandas de segurança pública, o Denuntiare propõe soluções interessantes para o aplicativo que está em fase de protótipo. Como já sugere o nome, sua função é diminuir a distância entre você e as denúncias, tanto para a sua comunicação com as autoridades, familiares, amigos e a sociedade, quanto para que você se informe sobre onde e em que momento quais crimes e situações de perigo aconteceram.
 
 ## :newspaper: O Que podemos fazer pela sociedade? (Recursos).
 
