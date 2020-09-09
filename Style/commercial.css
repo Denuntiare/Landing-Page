@@ -30,21 +30,21 @@
 }
   
 .slide:nth-child(1) {
-    background: url(/Landing-Page/Img/IdeiasDeFuturo.svg);
+    background: url(/Img/IdeiasDeFuturo.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
   
 .slide:nth-child(2) {
-    background: url(/Landing-Page/Img/StartupInSchool.jpg);
+    background: url(/Img/StartupInSchool.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
   
 .slide:nth-child(3) {
-    background: url(/Landing-Page/Img/Google.png);
+    background: url(/Img/Google.png);
     background-repeat: no-repeat;
     background-position: center;
 }
